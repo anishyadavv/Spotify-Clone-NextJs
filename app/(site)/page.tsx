@@ -1,9 +1,20 @@
-import Sidebar from "@/components/Sidebar"
+import Header from '../../components/Header';
+
 
 export default function Home() {
   return (
-    <Sidebar>
-      <h1 className='text-green-500'>Spotify</h1>
-    </Sidebar>
+    <div className="
+    bg-neutral-900
+    w-full
+    h-full
+    overflow-hidden
+    overflow-y-auto
+    rounded-lg
+    ">
+      <Header>
+        Header
+      </Header>
+
+    </div>
   )
 }
