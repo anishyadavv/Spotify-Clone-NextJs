@@ -112,6 +112,7 @@ const Header: React.FC<HeaderProps> = ({
                 </>
             </div>
         </div>
+        {children}
     </div>
   )
 }
